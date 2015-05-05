@@ -1,0 +1,9 @@
+# Logfile created on 2015-05-04 21:49:13 -0400 by logger.rb/41954
+I, [2015-05-04T21:49:13.484261 #65469]  INFO -- : 0:  daemons (1.2.2) from /Users/Jaime/.rvm/gems/ruby-2.0.0-p353@railstutorial_rails_4_0/specifications/daemons-1.2.2.gemspec
+I, [2015-05-04T21:49:23.074450 #65469]  INFO -- : 0:  eventmachine (1.0.7) from /Users/Jaime/.rvm/gems/ruby-2.0.0-p353@railstutorial_rails_4_0/specifications/eventmachine-1.0.7.gemspec
+I, [2015-05-04T21:49:23.918816 #65469]  INFO -- : 0:  rack (1.6.0) from /Users/Jaime/.rvm/gems/ruby-2.0.0-p353@railstutorial_rails_4_0/specifications/rack-1.6.0.gemspec
+I, [2015-05-04T21:49:23.919239 #65469]  INFO -- : 0:  rack-protection (1.5.3) from /Users/Jaime/.rvm/gems/ruby-2.0.0-p353@railstutorial_rails_4_0/specifications/rack-protection-1.5.3.gemspec
+I, [2015-05-04T21:49:24.322556 #65469]  INFO -- : 0:  tilt (2.0.1) from /Users/Jaime/.rvm/gems/ruby-2.0.0-p353@railstutorial_rails_4_0/specifications/tilt-2.0.1.gemspec
+I, [2015-05-04T21:49:25.400207 #65469]  INFO -- : 0:  sinatra (1.4.6) from /Users/Jaime/.rvm/gems/ruby-2.0.0-p353@railstutorial_rails_4_0/specifications/sinatra-1.4.6.gemspec
+I, [2015-05-04T21:49:25.400569 #65469]  INFO -- : 0:  thin (1.6.3) from /Users/Jaime/.rvm/gems/ruby-2.0.0-p353@railstutorial_rails_4_0/specifications/thin-1.6.3.gemspec
+I, [2015-05-04T21:49:25.400812 #65469]  INFO -- : 0:  bundler (1.5.1) from /Users/Jaime/.rvm/gems/ruby-2.0.0-p353@global/specifications/bundler-1.5.1.gemspec
