@@ -13,6 +13,8 @@ $( document ).ready(function() {
       .size([width, height]);
 
   d3.json("data/panama.json", function(error, json) {
+    console.log(json)
+
     force
         .nodes(json.nodes)
         .links(json.links)
@@ -52,7 +54,7 @@ $( document ).ready(function() {
         .attr("dy", ".35em")
         .text(function(d) { return d.name });
 
-        
+
     force.on("tick", function() {
       link.attr("x1", function(d) { return d.source.x; })
           .attr("y1", function(d) { return d.source.y; })
