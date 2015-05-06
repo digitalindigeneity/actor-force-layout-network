@@ -1,0 +1,16 @@
+html {
+    font-family: Lato;
+}
+.link {
+  stroke: blue;
+  stroke-width: 2;
+}
+
+.node text {
+  pointer-events: none;
+  font: 5px sans-serif;
+}
+
+.node:not(:hover) .nodetext {
+  display: none;
+}

@@ -450,7 +450,7 @@ Network = () ->
   showDetails = (d,i) ->
     content = '<p class="main">' + d.name + '</span></p>'
     content += '<hr class="tooltip-hr">'
-    content += '<p class="main">' + d.description + '</span></p>'
+    content += '<p class="main">' + d.artist + '</span></p>'
     tooltip.showTooltip(content,d3.event)
 
     # higlight connected links
