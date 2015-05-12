@@ -1,0 +1,84 @@
+{"posts":
+ { 
+   "name": "coreNode",
+   "type": "coreNode",
+   "size": 8000,
+   "children": [
+    {
+     "name": "year1",
+     "type": "year",
+     "size": 5000,
+     "children": [
+      {
+       "name": "postNode1",
+       "type": "postNode",
+       "xid":1,
+       "size" : 5000
+      },
+      {
+       "name": "PostNode2",
+       "type": "postNode",
+       "xid":2,
+       "size" : 4000
+      },
+      {
+       "name": "PostNode3",
+       "type": "postNode",
+       "xid":3,
+       "size": 3500
+      }
+     ]
+    },
+    {
+     "name": "year2",
+     "type": "year",
+     "size": 5000,
+     "children": [
+      {
+       "name": "postNode4",
+       "type": "postNode",
+       "xid":4,
+       "size": 2000
+      },
+      {
+       "name": "postNode5",
+       "type": "postNode",
+       "xid":5,
+       "size": 2000
+       },
+      {
+       "name": "postNode6",
+       "type": "postNode",
+       "xid":6,
+       "size": 2000
+      }
+     ]
+    }
+   ]
+ },
+"relations":[
+    {
+      "name":"likerNode1",
+      "type": "likerNode",
+      "size": 8000,
+      "relations": [1,2]
+
+    },
+    {
+      "name":"likerNode2",
+      "type": "likerNode",
+      "size": 16000,
+      "relations": [1]
+
+    },
+    {
+      "name":"taggedNode3",
+      "type": "taggedNode",
+      "size": 8000,
+      "relations": [1]
+
+    }
+    ]
+ 
+} 
+

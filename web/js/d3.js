@@ -6362,16 +6362,6 @@
         o = links[i];
         if (typeof o.source == "number") o.source = nodes[o.source];
         if (typeof o.target == "number") o.target = nodes[o.target];
-        console.log("DEBUG::");
-        console.log("LINK:");
-        console.log(links[i]);
-        console.log("source:");
-
-        console.log(o.source);
-                console.log("target:");
-
-        console.log(o.target);
-
         ++o.source.weight;
         ++o.target.weight;
       }
@@ -6396,9 +6386,6 @@
           }
           for (j = 0; j < m; ++j) {
             var o = links[j];
-            // console.log( "DEBUG:");
-            // console.log(neighbors);
-            // console.log(o.source.index);
             neighbors[o.source.index].push(o.target);
             neighbors[o.target.index].push(o.source);
           }
