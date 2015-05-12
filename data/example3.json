@@ -1,0 +1,83 @@
+{  
+   "nodes":[  
+      {  
+         "nodeType":"coreNode",
+         "name":"coreNode0",
+         "url" :"http://www.apple.com",
+         "xid":0
+      },
+      {  
+         "nodeType":"year",
+         "name":"year1",
+         "url" :"http://www.apple.com",
+         "xid":1
+      },
+      {  
+         "nodeType":"year",
+         "name":"year2",
+         "url" :"http://www.apple.com",
+         "xid":2
+      },      
+      {  
+         "nodeType":"postNode",
+         "name":"postNode1",
+         "url" :"http://www.apple.com",
+         "xid":3
+      },
+      {  
+         "nodeType":"taggedNode",
+         "name":"taggedNode1",
+         "url" :"http://www.apple.com",
+         "xid":4
+      },
+      {  
+         "nodeType":"likerNode",
+         "name":"likerNode1",
+         "url" :"http://www.apple.com",
+         "xid":5
+      },
+      {  
+         "nodeType":"postNode",
+         "name":"postNode2",
+         "url" :"http://www.apple.com",
+         "xid":6
+      }
+   ],
+   "links":[  
+      {  
+         "target":1,
+         "source":0,
+         "value":1,
+         "linkType":"coreLink"
+      },
+      {  
+         "target":2,
+         "source":0,
+         "value":1,
+         "linkType":"coreLink"
+      },
+      {  
+         "target":3,
+         "source":1,
+         "value":1,
+         "linkType":"coreLink"
+      },
+      {  
+         "target":3,
+         "source":5,
+         "value":1,
+         "linkType":"likeLink"
+      },
+      {  
+         "target":4,
+         "source":3,
+         "value":1,
+         "linkType":"taggerLink"
+      },
+      {  
+         "target":6,
+         "source":5,
+         "value":1,
+         "linkType":"likeLink"
+      }     ]
+}

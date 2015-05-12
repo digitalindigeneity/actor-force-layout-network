@@ -1,0 +1,26 @@
+html {
+    font-family: Lato;
+}
+
+
+
+.node {
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+
+.link {
+  stroke: #999;
+  stroke-opacity: .6;
+}
+
+#tooltip{
+	background-color: gray;
+	border-color: black;'
+    max-width: 500px;
+
+
+}
+.container{
+	max-width: 500px;
+}

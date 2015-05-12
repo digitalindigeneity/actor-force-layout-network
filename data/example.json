@@ -1,0 +1,57 @@
+{
+ "name": "coreNode",
+ "children": [
+  {
+   "name": "year1",
+   "size": 8000,
+   "children": [
+    {
+     "name": "postNode1",
+     "size" : 5000,
+     "children": [
+      {"name": "likerNode",
+       "size": 4000},
+      {"name": "taggedNode",
+       "size": 1000}
+     ]
+    },
+    {
+     "name": "PostNode2",
+     "size" : 4000,
+     "children": [
+      {"name": "likerNode",
+       "size": 3000},
+      {"name": "taggedNode",
+       "size": 1000}
+     ]
+    },
+    {
+     "name": "PostNode3",
+     "size": 3500
+     "children": [
+      {"name": "likerNode",
+       "size": 3500}
+     ]
+    }
+   ]
+  },
+  {
+   "name": "year2",
+   "children": [
+    {"name": "postNode4",
+     "size": 2000},
+    {"name": "postNode5",
+     "size": 2000},
+    {
+     "name": "postNode6",
+     "children": [
+      {"name": "likerNode",
+       "size": 1983},
+      {"name": "taggedNode",
+       "size": 2047}
+     ]
+    }
+   ]
+  }
+ ]
+}
