@@ -3,6 +3,7 @@ $( document ).ready(function() {
       height = 500,
       nodes,
       links;
+
   var force = d3.layout.force()
       .linkStrength(0.5)
       .friction(0.9)
@@ -29,7 +30,7 @@ $( document ).ready(function() {
   var link = svg.selectAll(".link"),
       node = svg.selectAll(".node");
 
-  d3.json("data/example3.json", function(error, json) {
+  d3.json("data/miserables.json", function(error, json) {
     nodes = json.nodes;
     links = json.links
     update();

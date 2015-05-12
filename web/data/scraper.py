@@ -30,14 +30,14 @@ if __name__ == '__main__':
     nodes = [] 
     links = []
 
-    id_count = 0
+    node_id_counter = 0
     #Initial CoreNode
     coreNode = {'name' :'Sistema de lecto y escritura del Idioma Ngabe',
                 'id' : 0,
                 'nodeType':'coreNode',
                 'group' : 0
                 }
-    id_count = id_count + 1 
+    node_id_counter = node_id_counter + 1 
 
     nodes.append(coreNode)
 
@@ -45,11 +45,10 @@ if __name__ == '__main__':
 
         # postNode parsing    
         postNode = {}
-
         # assign an id to postNode
-        postNode['id'] = id_count
-        #increment id_count
-        id_count = id_count + 1
+        postNode['id'] = node_id_counter
+        #increment node_id_counter
+        node_id_counter = node_id_counter + 1
 
         postNode['nodeType'] = 'postNode'
         postNode['fb_id'] = p['id']
@@ -102,11 +101,11 @@ if __name__ == '__main__':
                     likerNode['group'] = 2
                     like_count = like_count + 1
                     # id 
-                    likerNode['id'] = id_count
-                    id_count = id_count + 1
+                    likerNode['id'] = node_id_counter
+                    node_id_counter = node_id_counter + 1
                     #add likerNode
 
-                    # print '----------id count----', id_count;
+                    # print '----------id count----', node_id_counter;
                     # print '***********************','Adding likerNode with id:', likerNode['id'], '***********************'
                     # print likerNode
                     # print '***********************','***********************','***********************'
@@ -132,7 +131,7 @@ if __name__ == '__main__':
         postNode['size'] = size
         
            
-        # print '----------id count----', id_count;       
+        # print '----------id count----', node_id_counter;       
         # print  '***********************', 'Adding PostNode with id:', postNode['id'], '***********************'
         # print postNode
         # print '***********************','***********************','***********************'
@@ -151,8 +150,8 @@ if __name__ == '__main__':
                 taggedNode['size'] = 1
                 taggedNode['group'] = 3
                 #add id to taggedNOde
-                taggedNode['id'] = id_count
-                id_count = id_count + 1
+                taggedNode['id'] = node_id_counter
+                node_id_counter = node_id_counter + 1
 
                 # link taggedNode to post. 
                 tagLink = {}
@@ -164,8 +163,8 @@ if __name__ == '__main__':
 
                 # Add taggedNode    
                 if taggedNode != {}:
-                    # print "appending TAGGED", taggedNode, id_count
-                    # print '----------id count----', id_count;
+                    # print "appending TAGGED", taggedNode, node_id_counter
+                    # print '----------id count----', node_id_counter;
                     # print '***********************', 'Adding taggedNode with id:', postNode['id'],'***********************'
                     # print taggedNode
                     # print '***********************','***********************','***********************'

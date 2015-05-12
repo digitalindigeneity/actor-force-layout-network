@@ -1,30 +1,26 @@
 html {
     font-family: Lato;
 }
-/*.link {
-  stroke: blue;
-  stroke-width: 2;
-}
-
-.node text {
-  pointer-events: none;
-  font: 5px sans-serif;
-}
-
-.node:not(:hover) .nodetext {
-  display: none;
-}*/
 
 
 
 .node {
-  cursor: pointer;
-  stroke: #3182bd;
+  stroke: #fff;
   stroke-width: 1.5px;
 }
 
 .link {
-  fill: none;
-  stroke: #9ecae1;
-  stroke-width: 1.5px;
+  stroke: #999;
+  stroke-opacity: .6;
+}
+
+#tooltip{
+	background-color: gray;
+	border-color: black;'
+    max-width: 500px;
+
+
+}
+.container{
+	max-width: 500px;
 }

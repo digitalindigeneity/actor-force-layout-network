@@ -32,7 +32,7 @@ $( document ).ready(function() {
   var link = svg.selectAll(".link"),
       node = svg.selectAll(".node");
 
-  d3.json("data/example3.json", function(json) {
+  d3.json("data/example.json", function(json) {
     root = json.posts;
     likesAndTags = json.relations;
     update();

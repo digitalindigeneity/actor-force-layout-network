@@ -3,68 +3,81 @@
       {  
          "nodeType":"coreNode",
          "name":"coreNode0",
-         "id":0
+         "url" :"http://www.apple.com",
+         "xid":0
       },
       {  
          "nodeType":"year",
          "name":"year1",
-         "id":1
+         "url" :"http://www.apple.com",
+         "xid":1
       },
       {  
          "nodeType":"year",
          "name":"year2",
-         "id":2
+         "url" :"http://www.apple.com",
+         "xid":2
       },      
       {  
          "nodeType":"postNode",
          "name":"postNode1",
-         "id":3
+         "url" :"http://www.apple.com",
+         "xid":3
       },
       {  
-         "nodeType":"taggerNode",
-         "name":"taggerNode1",
-         "id":4
+         "nodeType":"taggedNode",
+         "name":"taggedNode1",
+         "url" :"http://www.apple.com",
+         "xid":4
       },
       {  
          "nodeType":"likerNode",
          "name":"likerNode1",
-         "id":5
+         "url" :"http://www.apple.com",
+         "xid":5
       },
       {  
          "nodeType":"postNode",
          "name":"postNode2",
-         "id":6
+         "url" :"http://www.apple.com",
+         "xid":6
       }
    ],
    "links":[  
       {  
          "target":1,
          "source":0,
-         "type":"coreLink"
+         "value":1,
+         "linkType":"coreLink"
       },
       {  
          "target":2,
          "source":0,
-         "type":"coreLink"
+         "value":1,
+         "linkType":"coreLink"
       },
       {  
          "target":3,
          "source":1,
-         "type":"coreLink"
+         "value":1,
+         "linkType":"coreLink"
       },
       {  
          "target":3,
          "source":5,
-         "type":"likeLink"
+         "value":1,
+         "linkType":"likeLink"
       },
       {  
          "target":4,
          "source":3,
-         "type":"taggerLink"
+         "value":1,
+         "linkType":"taggerLink"
       },
       {  
          "target":6,
          "source":5,
-         "type":"likeLink"
+         "value":1,
+         "linkType":"likeLink"
       }     ]
 }
